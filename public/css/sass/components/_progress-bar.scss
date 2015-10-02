@@ -1,0 +1,11 @@
+// ========================================
+// progress-bar
+// ========================================
+
+.progress-bar {
+    position: fixed;
+    @include prefix( transition, 600ms );
+    opacity: 1;
+    height: 10px;
+    background-color: red;
+}

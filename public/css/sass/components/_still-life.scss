@@ -1,0 +1,12 @@
+// ========================================
+// still-life
+// ========================================
+
+.still-life {
+    opacity: 1;
+    @include prefix( transition, 600ms );
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // @include prefix( transform, translate(-50%, -50%) );
+}

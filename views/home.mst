@@ -1,0 +1,11 @@
+{{>header}}
+
+<div class="background"></div>
+
+<div id="progress-bar" class="progress-bar"></div>
+
+<div id="route" class="route amm"></div>
+
+<img class="still-life amm" src="/img/still-life-with-trans.png">
+
+{{>footer}}

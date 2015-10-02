@@ -1,0 +1,55 @@
+// html {
+//     overflow-x: hidden;
+// }
+
+// .full-width {
+//     width: 100%;
+//     display: block;
+//     margin: 0 auto 10px auto;
+// }
+
+// ========================================
+// strucutre
+// ========================================
+
+.container {
+    margin: 0 auto;
+    max-width: $desktop;
+    // padding: 0 10px;
+    &.full-bleed {
+        padding: 0;
+    }
+    @include breakpoint(tablet-mobile) {
+        width: 100%;
+    }
+    // &.large {
+    //     max-width: $desktop;
+    //     @include breakpoint(tablet-mobile) {
+    //         max-width: $tablet;
+    //     }
+    // }
+    // &.medium {
+    //     max-width: $tablet;
+    // }
+    // &.small {
+    //     max-width: 590px;
+    // }
+    // &.large,
+    // &.medium,
+    // &.small {
+    //     @include breakpoint(mobile) {
+    //         width: 100%;
+    //     }
+    // }
+}
+
+// .container {
+//     &.medium,
+//     &.small {
+//         & > * {
+//             @include breakpoint(tablet-mobile) {
+//                 padding: 0 10px;
+//             }
+//         }
+//     }
+// }
